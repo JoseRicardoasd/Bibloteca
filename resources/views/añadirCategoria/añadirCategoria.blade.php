@@ -123,7 +123,7 @@ Añadir categoria
           @enderror
                 </div>
                 <div class="col">
-                    <label for="" class="form-label">nombre</label>
+                    <label for="" class="form-label">Descripcion</label>
                         <input type="text" class="form-control" name="descripcion" value="{{$item->descripcion}}">
                         @error('descripcion')
               <small style="color:red">{{$message}}</small>

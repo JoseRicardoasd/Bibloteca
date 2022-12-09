@@ -207,7 +207,7 @@ No existe este libro
                     @enderror
                 </div>
                 <div class="col">
-                    <label for="" class="form-label">nombre</label>
+                    <label for="" class="form-label">Nombre del Libro</label>
                         <input type="text" class="form-control" name="nombre" value="{{$item->ombre}}">
                         @error('nombre')
                         <small style="color:red">{{$message}}</small>
@@ -218,7 +218,7 @@ No existe este libro
 
               <div class="row">
                 <div class="col">
-                    <label for="exampleInputEmail1" class="form-label"></label>
+                    <label for="exampleInputEmail1" class="form-label">Editorial</label>
                         <input type="text" class="form-control" name="editorial" value="{{$item->editorial}}">
                         @error('editorial')
                         <small style="color:red">{{$message}}</small>
